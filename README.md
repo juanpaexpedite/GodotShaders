@@ -1,2 +1,2 @@
 # GodotShaders
-Shaders for godot and snippets
+Shaders and Snippets for Godotengine
