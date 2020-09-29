@@ -43,7 +43,7 @@ void fragment()
 	
 	//8. Gradient, I had to search for this line
 	//https://www.youtube.com/watch?v=i7VljTl4I3w 11:00
-	vec3 sampled_color = texture(gradient,vec2(final.r,0.0)).rgb;
+	vec4 sampled_color = texture(gradient,vec2(final.r,0.0)).rgba;
 	
-	COLOR.rgb = sampled_color;
+	COLOR.rgba = sampled_color;
 }
